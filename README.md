@@ -52,18 +52,23 @@ A simple Snake game on an ESP32 with an I2C LCD display. The game operates at a 
 - No walls—space is already limited enough.
 - The snake moves continuously in the set direction unless changed.
 - Collecting food increases the snake's length.
-- ~~**Game Over**: The game ends if the snake collides with itself~~.`(not implemented yet)`
-- ~~**Restart**: Restart after a game-over while keeping the high score~~.`(not implemented yet)`
+- **Game Over**: The game ends if the snake collides with itself.
+- **Restart**: Restart after a game-over/power-off while keeping the high score.
+  - Press `R` then `U` after game-over to restart.
+  - Then if you want to reset the high score too, press `R` else `L`. 
 - **No direct reversal** of movement (e.g., Left to Right is ignored).
 
 ## Future Plans
-- Add self-collision detection.
-- Improve food placement so it doesn’t spawn inside the snake.
-- Implement a proper score display.
-- Add a restart option after game over.
-- Store and display high scores persistently on the device.
+- [ ] Add an option to pause in betwen the game.
+- [x]  ~~Add self-collision detection.~~
+- [x]  ~~Improve food placement so it doesn’t spawn inside the snake.~~
+- [x]  ~~Implement a proper score display.~~
+- [x]  ~~Add a restart option after game over.~~
+- [x]  ~~Store and display high scores persistently on the device.~~
 
-## Video Demo
+## Video Demo (Old)
+> Demo for current version is yet to be updated.
+
 Curious to see it in action before you build? Check out this demo: [Snake On 16x2 LCD with ESP32 Dev Kit](https://youtu.be/9WMm03ATzCo?feature=shared)
 
 ## Contributing
