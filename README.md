@@ -66,10 +66,8 @@ A simple Snake game on an ESP32 with an I2C LCD display. The game operates at a 
 - [x]  ~~Add a restart option after game over.~~
 - [x]  ~~Store and display high scores persistently on the device.~~
 
-## Video Demo (Old)
-> Demo for current version is yet to be updated.
-
-Curious to see it in action before you build? Check out this demo: [Snake On 16x2 LCD with ESP32 Dev Kit](https://youtu.be/9WMm03ATzCo?feature=shared)
+## Video Demo
+Curious to see it in action before you build? Check out this demo: [Snake On 16x2 LCD with ESP32 Dev Kit](https://youtu.be/IDjFa7bcI9M?feature=shared)
 
 ## Contributing
 Fork this repository and submit pull requests for enhancements or bug fixes!
